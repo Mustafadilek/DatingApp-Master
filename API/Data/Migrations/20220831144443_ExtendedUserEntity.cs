@@ -46,7 +46,7 @@ namespace API.Data.Migrations
                 nullable: true);
 
             migrationBuilder.AddColumn<string>(
-                name: "Introducton",
+                name: "Introduction",
                 table: "Users",
                 type: "TEXT",
                 nullable: true);
@@ -128,7 +128,7 @@ namespace API.Data.Migrations
                 table: "Users");
 
             migrationBuilder.DropColumn(
-                name: "Introducton",
+                name: "Introduction",
                 table: "Users");
 
             migrationBuilder.DropColumn(
